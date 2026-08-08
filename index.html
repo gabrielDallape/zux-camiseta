@@ -185,7 +185,7 @@
 <div class="wrap">
   <p class="eyebrow">Ficha de arte · revisão 4</p>
   <h1>Camiseta<br>ZUX Expeditions</h1>
-  <p class="lede">A peça vai ser <strong>plotada depois de pronta</strong>: tecido liso, arte em preto chapado, sem camuflado nenhum. O escudo é a única exceção — ele leva branco. Posições mantidas: escudo no peito esquerdo de quem veste, o carro no peito, snowmobile e EXPEDITIONS nas costas, bandeira e ZUX nas mangas.</p>
+  <p class="lede">A peça vai ser <strong>plotada depois de pronta</strong>: tecido liso, arte em preto chapado, sem camuflado nenhum. O escudo leva branco, a bandeira leva cor — o resto é uma cor só. Na manga a ordem se inverte: a <strong>bandeira dobra para 12 cm</strong> e o ZUX vira assinatura horizontal embaixo dela.</p>
 
   <dl class="titleblock">
     <div><dt>Peça</dt><dd>Manga longa</dd></div>
@@ -310,36 +310,35 @@
     <div class="sleeve-row">
       <figure class="plate" style="margin:0">
         <figcaption><b>Manga</b><span>cotas em cm</span></figcaption>
-        <svg viewBox="0 0 300 700" role="img" aria-label="Manga aberta com ZUX vertical e a bandeira do Brasil abaixo">
+        <svg viewBox="0 0 300 700" role="img" aria-label="Manga aberta com a bandeira do Brasil de 12 cm e o ZUX horizontal abaixo dela">
           <g fill="none" stroke="var(--fabric-line)" stroke-width="3" stroke-linejoin="round">
             <path fill="var(--fabric)" d="M 40 30 L 260 30 L 197 620 L 197 662 L 103 662 L 103 620 Z"/>
             <path stroke-width="2" d="M 103 620 L 197 620"/>
           </g>
 
-          <svg x="120" y="150" width="60" height="42" viewBox="0 0 20 14" overflow="visible">
+          <svg x="90" y="150" width="120" height="84" viewBox="0 0 20 14" overflow="visible">
             <rect width="20" height="14" fill="#009B3A"/>
             <path d="M 10 1.1 L 18.7 7 L 10 12.9 L 1.3 7 Z" fill="#FEDF00"/>
             <circle cx="10" cy="7" r="3.5" fill="#002776"/>
           </svg>
 
-          <g fill="var(--fabric-line)" font-weight="800" font-size="82" text-anchor="middle" letter-spacing="-2">
-            <text x="150" y="298">Z</text>
-            <text x="150" y="376">U</text>
-            <text x="150" y="454">X</text>
-          </g>
+          <!-- ZUX horizontal, largura travada em 6 cm pelo textLength -->
+          <text x="150" y="276" fill="var(--fabric-line)" font-weight="800" font-size="26"
+                text-anchor="middle" textLength="60" lengthAdjust="spacingAndGlyphs">ZUX</text>
 
           <g stroke="var(--accent)" stroke-width="2" font-size="19" fill="var(--accent)">
-            <path d="M 120 134 L 180 134 M 120 127 L 120 141 M 180 127 L 180 141"/>
-            <text x="190" y="141" letter-spacing="1.2">6 cm</text>
+            <path d="M 90 134 L 210 134 M 90 127 L 90 141 M 210 127 L 210 141"/>
+            <text x="150" y="122" text-anchor="middle" letter-spacing="1.2">12 cm</text>
 
-            <path d="M 216 236 L 216 298 M 209 236 L 223 236 M 209 298 L 223 298"/>
-            <text x="230" y="274" letter-spacing="1.2">6 cm</text>
+            <path d="M 120 294 L 180 294 M 120 287 L 120 301 M 180 287 L 180 301"/>
+            <text x="150" y="320" text-anchor="middle" letter-spacing="1.2">6 cm</text>
           </g>
         </svg>
       </figure>
 
       <div>
-        <p class="note" style="margin-top:0">A <b>bandeira do Brasil</b> vem primeiro, 6 cm de largura, logo abaixo da cava. O <b>ZUX</b> vertical desce e fica embaixo dela, letra de 6 cm. Na manga a bandeira cabe grande e lê bem — o que não aconteceria nos 3,5 cm que sobrariam sob o escudo do peito.</p>
+        <p class="note" style="margin-top:0">A <b>bandeira do Brasil</b> vem primeiro, <b>12 cm</b> de largura, logo abaixo da cava. A 12 cm ela vira o elemento principal da manga, e as estrelas do círculo azul ainda saem legíveis. Cabe com folga: naquela altura a manga tem 19,4 cm de largura aberta, então sobram 3,7 cm de cada lado.</p>
+        <p class="note">O <b>ZUX</b> deixa de descer na vertical e vira palavra <b>horizontal</b>, 6 cm de largura, logo abaixo da bandeira — letra de cerca de 1,9 cm. Ele passa de assinatura que ocupava a manga inteira a assinatura discreta, e a bandeira fica com o peso.</p>
         <p class="note">O tecido nas pranchas agora é <b>liso</b>: quem estampa é a plotagem, e ela alcança só a área plana da peça pronta. O camuflado saiu de vez — nem no tecido, nem dentro das artes.</p>
         <p class="note">A manga sai em preto chapado, uma cor só. Desenhada como manga esquerda; falta definir se a bandeira sai nas duas mangas ou só numa — o ZUX, esse sim, sai nas duas.</p>
       </div>
@@ -391,9 +390,21 @@
             <td class="dim">10 cm</td>
           </tr>
           <tr>
-            <td>Posições e cotas</td>
-            <td class="was">Fechadas no v2</td>
-            <td class="now">Mantidas, sem alteração</td>
+            <td>Bandeira da manga</td>
+            <td class="was">6 cm, acima do ZUX</td>
+            <td class="now">Dobra de tamanho e vira o elemento principal da manga</td>
+            <td class="dim">6 → 12 cm</td>
+          </tr>
+          <tr>
+            <td>ZUX da manga</td>
+            <td class="was">Vertical, letra de 6 cm, ombro ao punho</td>
+            <td class="now">Horizontal e pequeno, embaixo da bandeira — assinatura, não estampa</td>
+            <td class="dim">6 cm de largura</td>
+          </tr>
+          <tr>
+            <td>Peito e costas</td>
+            <td class="was">Fechados no v2</td>
+            <td class="now">Posições e cotas mantidas</td>
             <td class="dim">—</td>
           </tr>
         </tbody>
@@ -454,7 +465,7 @@
       </li>
       <li>
         <span class="state missing">Falta</span>
-        <span>Bandeira do Brasil em vetor<em>Cores oficiais. A 6 cm na manga as estrelas já saem legíveis — a versão completa serve, sem precisar simplificar.</em></span>
+        <span>Bandeira do Brasil em vetor<em>Cores oficiais. A 12 cm na manga a versão completa serve com folga — as 27 estrelas saem todas legíveis, sem precisar simplificar. É a única peça em cor da camiseta.</em></span>
       </li>
       <li>
         <span class="state missing">Falta</span>
