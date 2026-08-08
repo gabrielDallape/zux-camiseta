@@ -27,6 +27,30 @@
 
 Modelos de imagem erram letra pequena — o "ZUX" volta como "ZUK", "ZIJX" ou um borrão. Peça a lataria **limpa** e me mande o resultado: eu aplico o adesivo com a tipografia certa, na posição certa, preto na lataria clara e vazado na lataria escura. Já é o que está montado hoje.
 
+## Quando ele insiste em botar fundo
+
+Mande esta correção, sozinha, na mesma conversa:
+
+> Refaça a mesma imagem, mas **sem fundo nenhum**.
+>
+> O fundo tem que ser branco puro chapado, 100% #FFFFFF, sem absolutamente nada
+> atrás dos veículos. Sem paisagem, sem duna, sem montanha, sem morro, sem céu,
+> sem sol, sem raios, sem nuvem, sem árvore, sem horizonte, sem chão, sem estrada.
+> Sem moldura, sem borda, sem círculo, sem emblema, sem faixa, sem retângulo de
+> fundo. Sem textura de papel, sem granulado, sem respingo espalhado.
+>
+> Sem sombra projetada no chão e sem qualquer cinza — só preto puro e branco puro,
+> nada entre os dois.
+>
+> Os veículos e a poeira que sai dos pneus devem ficar **recortados e isolados**,
+> como um adesivo colado numa folha branca em branco. Deixe uma margem de folga em
+> volta: nada pode encostar na borda da imagem.
+
+Se ele oferecer a opção de fundo transparente, aceite. Mas **branco puro já
+serve** — eu recorto o fundo aqui, é o mesmo processo que já usei no snowmobile e
+no logo. O que não dá para recortar é cenário: se vier montanha atrás, o recorte
+leva a montanha junto.
+
 ## Se o resultado vier ruim
 
 - **Veio cinza ou sombreado:** repita `pure black only, no grayscale, no shading, flat vector`.
