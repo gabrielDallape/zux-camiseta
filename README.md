@@ -14,9 +14,11 @@ Página publicada via GitHub Pages: `index.html` na raiz, sem build.
 
 - **Sem camuflado.** Nem no tecido, nem dentro das artes. Tudo é preto chapado,
   uma cor só — a única exceção é o branco do escudo
-- **A arte do carro vai ser refeita** no estilo *sketcher*: traço solto e
-  rabiscado, referência do Maverick R da ECDwraps. O carro que está nas pranchas
-  é o do v2, de marcador de posição. Roteiro de geração em `prompt-gemini.md`
+- **Carro do peito refeito** no estilo *sketcher*: um Maverick de perfil, traço
+  solto, 38 × 20,2 cm. Gerado a partir da referência da ECDwraps pelo roteiro em
+  `prompt-gemini.md` e tratado para impressão — de 68 para 172 dpi
+- **Manga:** a bandeira do Brasil dobra para 12 cm e o ZUX vira assinatura
+  horizontal de 6 cm embaixo dela
 
 Do v3, que continua valendo: plotagem na peça pronta e tecido liso; o
 **EXPEDITIONS** das costas sem o bloco preto, só a palavra; o **escudo ZUX** em
