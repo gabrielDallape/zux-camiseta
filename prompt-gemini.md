@@ -1,34 +1,34 @@
 # Prompt para gerar o carro no Gemini
 
-> **Anexe a foto do Maverick R “Sketcher”** — o print do site da ECDwraps,
-> salvo em `referencias/1-maverick-ecdwraps.jpg`. Depois cole o texto abaixo.
+> **Não anexe imagem nenhuma.** Anexar joga o Gemini no modo de edição de imagem,
+> que responde *“Sorry, I can't edit images for you yet”*. O estilo vai descrito
+> no texto. A referência (`referencias/1-maverick-ecdwraps.jpg`) fica só para os
+> nossos olhos.
 
-O print tem barra de status, cabeçalho do site, miniaturas e preço. O prompt já
-manda ignorar tudo isso e olhar só o carro grande do topo — sem essa instrução o
-modelo tenta desenhar a página inteira.
+**Comece uma conversa nova** e cole o texto abaixo inteiro, com a primeira linha.
+É ela que manda gerar imagem — sem ela o Gemini responde como assistente de
+texto e devolve código SVG desenhado por ele, que sai um rabisco inútil.
 
 ---
 
 ## Cole isto
 
-> Na imagem que anexei, olhe **apenas o veículo grande no topo** — ignore a barra
-> de status do celular, o cabeçalho do site, as miniaturas e todo o texto.
->
-> Use o **estilo de traço** desse veículo como referência. Não copie o desenho:
-> quero uma ilustração nova, feita do zero, no mesmo espírito gráfico.
+> Gere uma imagem. Ilustração, não código, não SVG, não descrição.
 >
 > **O que desenhar:** um veículo UTV side-by-side esportivo, tipo Can-Am Maverick
 > R, com gaiola de proteção completa, suspensão de curso longo e pneus de trilha
 > agressivos. Vista lateral, de perfil, rodas no chão, nariz apontado para a
-> esquerda.
+> esquerda. Proporções corretas de um UTV de verdade: entre-eixos largo, altura
+> baixa em relação ao comprimento, rodas grandes.
 >
 > **O estilo, que é o ponto principal:** traço solto e rabiscado, como esboço a
-> caneta. O carro é sugerido por riscos que se cruzam e se sobrepõem — **não** por
-> um contorno único fechando a silhueta. Riscos de comprimento e ângulo variados,
-> alguns passando do ponto onde a forma termina. A gaiola e a suspensão viram um
-> emaranhado de linhas. As áreas de carroceria ficam **abertas, em branco**: o
-> traço só marca aresta, vinco e sombra. Energético e gestual, mas ainda
-> claramente legível como carro.
+> caneta nanquim feito por ilustrador. O carro é sugerido por riscos que se
+> cruzam e se sobrepõem — **não** por um contorno único fechando a silhueta.
+> Riscos de comprimento e ângulo variados, alguns passando do ponto onde a forma
+> termina. A gaiola e a suspensão viram um emaranhado de linhas. As áreas de
+> carroceria ficam **abertas, em branco**: o traço só marca aresta, vinco e
+> sombra. Energético e gestual, mas com o veículo bem construído e claramente
+> legível — é esboço de profissional, não rabisco solto.
 >
 > **Pneus e rodas são a exceção:** esses saem fechados e sólidos, com banda de
 > rodagem cravada e aro desenhado. São o contrapeso escuro que segura o desenho.
@@ -50,6 +50,24 @@ modelo tenta desenhar a página inteira.
 > Composição horizontal. Alta resolução, no mínimo 3000 px de largura.
 
 ---
+
+## Se ele responder com código SVG de novo
+
+Não é o prompt que está errado — é a conversa, que ficou em modo texto. Mande:
+
+> Não quero código. Gere uma imagem de verdade, renderizada.
+
+Se insistir, abra conversa nova. Se ainda assim não gerar, a sua conta ou a sua
+região não tem geração de imagem no Gemini — nesse caso vá para:
+
+| Onde | Observação |
+|---|---|
+| **Google AI Studio** (`aistudio.google.com`) | Modelo de imagem do Gemini, mesmo prompt |
+| **ImageFX** (`labs.google/fx`) | Ferramenta de imagem do Google, direto ao ponto |
+| **ChatGPT** | Gera imagem no plano pago, mesmo prompt |
+
+O prompt é o mesmo em qualquer uma — só apague a primeira linha nas ferramentas
+que já são de imagem, porque nelas ela não faz falta.
 
 ## Se quiser a dupla em vez de um carro só
 
@@ -94,13 +112,17 @@ Mande a correção sozinha, na mesma conversa.
 - **Veio quadriciclo em vez de side-by-side:**
   > Quatro rodas, dois bancos lado a lado, gaiola completa, volante — não é um
   > quadriciclo.
+- **Veio infantil, com proporção errada** — foi o que aconteceu na primeira
+  tentativa, quando ele desenhou em SVG:
+  > O veículo tem que ter proporção correta de UTV de verdade: entre-eixos largo,
+  > carroceria baixa em relação ao comprimento, rodas grandes e bem assentadas. É
+  > esboço de ilustrador profissional, não desenho infantil.
 
 ## Versão em inglês
 
-> In the image I attached, look **only at the large vehicle at the top** — ignore
-> the phone status bar, the website header, the thumbnails and all text. Use that
-> vehicle's **linework style** as reference. Do not copy the design: I want a new
-> illustration, drawn from scratch, in the same graphic spirit.
+Costuma render melhor. Mesma regra: primeira linha manda gerar, sem anexo.
+
+> Generate an image. An illustration — not code, not SVG, not a description.
 >
 > Draw one sport side-by-side UTV (Can-Am Maverick R style) with a full roll cage,
 > long-travel suspension and aggressive knobby tires. Side profile view, wheels on
